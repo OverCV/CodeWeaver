@@ -1,0 +1,23 @@
+{
+  "name": "codeweaver",
+  "version": "1.0.0",
+  "description": "Teje tus desarrollos con CodeWeaver!",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "npx -y tsx main.ts",
+    "test": "tests"
+  },
+  "keywords": [
+    "code",
+    "ai"
+  ],
+  "author": "Lucho, Openhaimer",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21"
+  }
+}
