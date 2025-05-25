@@ -13,4 +13,4 @@ export class Ollama implements ILLM {
 	enviarPrompt(prompt: string): Promise<string> {
 		throw new Error("Method not implemented.");
 	}
-} 
+}
